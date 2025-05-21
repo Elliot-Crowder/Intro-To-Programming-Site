@@ -1,0 +1,53 @@
+li {
+  list-style: none;
+  font-size: 0.65rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+h1 {
+  font-size: 1rem;
+  color: rgb(78, 131, 231);
+  margin: 0;
+  text-align: left;
+  margin-left: 1rem;
+  align-self: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 3.5rem;
+}
+
+.link {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: rgb(58, 166, 255);
+}
+
+.contactButton {
+  align-items: center;
+  justify-self: right;
+  margin-right: 1rem;
+}
+
+.navigation {
+  justify-self: center;
+  align-self: center;
+}
