@@ -3,27 +3,26 @@ import { Link } from "react-router";
 function Header() {
   return (
     <header>
-      <h1>Intro To Computer Science</h1>
       <nav className={styles.navigation}>
         <ul>
           <li>
-            <Link className={styles.link}>Home</Link>
+            <Link className={styles.navItem}>Home</Link>
+          </li>
+
+          <li>
+            <Link className={styles.navItem}>Class Schedule</Link>
           </li>
           <li>
-            <Link className={styles.link}>About Me</Link>
+            <Link className={styles.navItem}>Assignments</Link>
           </li>
           <li>
-            <Link className={styles.link}>Class Schedule</Link>
+            <Link className={styles.navItem}>Notes</Link>
           </li>
           <li>
-            <Link className={styles.link}>Notes</Link>
-          </li>
-          <li>
-            <Link className={styles.link}>Assignments</Link>
+            <Link className={styles.navItem}>About Me</Link>
           </li>
         </ul>
       </nav>
-      <button className={styles.contactButton}>Contact me</button>
     </header>
   );
 }

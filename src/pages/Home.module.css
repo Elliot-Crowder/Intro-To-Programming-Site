@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+main {
+  padding-top: 3rem;
+}
+
+.courseIntro {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  gap: 2rem;
+}
+
+.leftColumn {
+  flex: 1fr;
+  width: 40%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.rightColumn {
+  flex: 1fr;
+  width: 40%;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(30, 139, 228);
+}
+
+h1 span {
+  display: block;
+}
+
+.styleBracket {
+  color: rgb(189, 0, 72);
+}
+
+.title {
+  padding-left: 2.5rem;
+  line-height: 2, 5rem;
+}
+
+.courseDesc {
+  padding-top: 2.5rem;
+}
+
+p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.courseParagraph {
+  line-height: 1rem;
+  font-size: 8px;
+}
+
+.courseParagraph:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.startButton {
+  margin-top: 1rem;
+  background-color: rgb(83, 95, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 0.25rem 0.5rem;
+  color: rgb(228, 228, 228);
+  letter-spacing: 0.75px;
+  font-family: "Poppins", sans-serif;
+}
+
+.startButton:hover {
+  box-shadow: 0px 0px 3px rgb(109, 109, 197);
+  scale: calc(1.01);
+}
