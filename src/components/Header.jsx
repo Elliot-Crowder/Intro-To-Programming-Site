@@ -10,10 +10,14 @@ function Header() {
           </li>
 
           <li>
-            <Link className={styles.navItem}>Class Schedule</Link>
+            <Link className={styles.navItem} to="/schedule">
+              Class Schedule
+            </Link>
           </li>
           <li>
-            <Link className={styles.navItem}>Assignments</Link>
+            <Link className={styles.navItem} to="/assignments">
+              Assignments
+            </Link>
           </li>
           <li>
             <Link className={styles.navItem}>Notes</Link>
@@ -23,6 +27,10 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+      ></link>
     </header>
   );
 }
