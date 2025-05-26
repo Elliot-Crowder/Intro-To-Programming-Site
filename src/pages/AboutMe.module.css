@@ -1,0 +1,37 @@
+.hero {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+	gap: 4rem;
+}
+
+.headshot {
+	border-radius: 100%;
+}
+
+.title {
+	display: block;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.25rem;
+}
+
+.title:last-child {
+	border-bottom: 2px solid rgb(30, 139, 228);
+}
+
+.rightColumn {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.rightColumn p {
+	line-height: 1.5rem;
+	letter-spacing: 1.1px;
+	margin-bottom: 1rem;
+}
+
+.rightColumn p:last-child {
+	margin-top: 1rem;
+}
