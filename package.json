@@ -2,7 +2,7 @@
   "name": "course-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Elliot-Crowder.github.io/Intro-To-Programming_Site",
+  "homepage": "https://Elliot-Crowder.github.io/Intro-To-Programming-Site",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
