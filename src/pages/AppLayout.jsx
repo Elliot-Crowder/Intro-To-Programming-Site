@@ -5,8 +5,7 @@ function AppLayout() {
   return (
     <>
       <Header></Header>
-
-      <main>
+      <main className={styles.main}>
         <Outlet />
       </main>
     </>
