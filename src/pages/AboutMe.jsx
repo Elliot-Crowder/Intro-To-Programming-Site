@@ -32,7 +32,7 @@ function AboutMe() {
             src="https://www.youtube.com/embed/ePDPqEXxfTU"
             allowFullScreen
             title="edit"
-            frameborder="0"
+            frameBorder="0"
             width="720"
             height="400"
           ></iframe>

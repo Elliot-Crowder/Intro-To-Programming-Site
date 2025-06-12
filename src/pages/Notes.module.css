@@ -1,11 +1,10 @@
-.scheduleTitle {
-  margin-top: 1.5rem;
-  text-align: center;
-  font-size: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-table {
+
+.notesTable {
   border-collapse: collapse;
   table-layout: auto;
   width: 80vw;
@@ -13,8 +12,8 @@ table {
   margin-bottom: 3rem;
   border: 2px solid rgb(0, 0, 0);
 }
-.scheduleHead {
-  background-color: rgb(40, 80, 158);
+.notesHead {
+  background-color: rgb(125, 40, 158);
 }
 
 th {
@@ -37,6 +36,18 @@ li {
   margin: 0.5rem 0;
 }
 
+.pageTitle {
+  color: rgb(30, 139, 228);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .topicList {
   display: block;
 }
@@ -51,11 +62,20 @@ li {
   letter-spacing: 1.5px;
 }
 
-.scheduleInfo {
+.notesInfo {
   width: 80vw;
   margin: 1rem auto;
   padding: 0.5rem 0;
   line-height: 32px;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: purple;
 }

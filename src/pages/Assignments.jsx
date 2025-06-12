@@ -1,5 +1,5 @@
 function Assignments() {
-  return <>assignments page</>;
+  return <>Under Construction</>;
 }
 
 export default Assignments;

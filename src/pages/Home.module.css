@@ -1,118 +1,115 @@
 .courseIntro {
-	display: flex;
-	margin-top: 2rem;
-	justify-content: center;
-	margin-left: 2rem;
-	margin-right: 2rem;
-	gap: 4rem;
-	flex-wrap: wrap;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .introLine {
-	font-weight: bold;
-	letter-spacing: 1.5px;
-	font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
 .leftColumn {
-	flex: 1fr;
-	width: 40%;
-	padding-left: 2rem;
-	padding-top: 2rem;
+  flex: 1fr;
+  width: 40%;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
 .rightColumn {
-	flex: 1fr;
-	width: 40%;
-	padding-top: 2rem;
-	padding-right: 2rem;
-	display: flex;
-	padding-bottom: 2rem;
+  flex: 1fr;
+  width: 40%;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  padding-bottom: 2rem;
 }
 h1 {
-	font-size: 4rem;
-	margin: 0;
-	color: rgb(30, 139, 228);
+  font-size: 4rem;
+  margin: 0;
+  color: rgb(30, 139, 228);
 }
 
 h1 span {
-	display: block;
+  display: block;
 }
 
 .styleBracket {
-	color: rgb(189, 0, 72);
+  color: rgb(189, 0, 72);
 }
 
 .title {
-	padding-left: 5rem;
-	/* line-height: 2, 6rem; */
-	line-height: 5rem;
+  padding-left: 5rem;
+  /* line-height: 2, 6rem; */
+  line-height: 5rem;
 }
 
 .courseDesc {
-	margin-top: 4rem;
-	margin-left: 5rem;
-	margin-right: 5rem;
-	columns: 2;
-	column-gap: 4rem;
-}
-
-p {
-	font-size: 20px;
-	margin: 0;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  columns: 2;
+  column-gap: 4rem;
 }
 
 .courseParagraph {
-	line-height: 2rem;
-	font-size: 16px;
+  line-height: 2rem;
+  font-size: 16px;
 }
 
 .courseParagraph:not(:last-child) {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .startButton {
-	margin-top: 2rem;
-	background-color: rgb(83, 95, 255);
-	border: none;
-	border-radius: 10px;
-	font-weight: bold;
-	font-size: 20px;
-	padding: 0.5rem 1rem;
-	color: rgb(228, 228, 228);
-	letter-spacing: 0.75px;
-	font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  background-color: rgb(83, 100, 255);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  color: rgb(228, 228, 228);
+  letter-spacing: 0.75px;
+  font-family: "Poppins", sans-serif;
 }
 
 .startButton:hover {
-	box-shadow: 0px 0px 3px rgb(109, 109, 197);
-	scale: calc(1.01);
+  box-shadow: 0px 0px 3px rgb(109, 109, 197);
+  scale: calc(1.01);
 }
 
 .buttonContainer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 2rem;
-	margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .contactButton {
-	background-color: rgb(14, 70, 48);
-	border: none;
-	border-radius: 10px;
-	font-weight: bold;
-	font-size: 20px;
-	padding: 0.5rem 1rem;
-	color: rgb(228, 228, 228);
-	letter-spacing: 1.5px;
-	font-family: "Poppins", sans-serif;
-	text-decoration: none;
+  background-color: rgb(14, 70, 48);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  color: rgb(228, 228, 228);
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 .contactButton:hover {
-	box-shadow: 0px 0px 4px rgb(96, 255, 149);
-	scale: calc(1.01);
+  box-shadow: 0px 0px 4px rgb(96, 255, 149);
+  scale: calc(1.01);
 }
 
 code {
-	background-color: black;
+  background-color: black;
 }
